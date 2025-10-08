@@ -495,6 +495,7 @@ a {
 }
 
 .stats .qty-desc {
+    margin-top: 24px;
     color: #7b8087;
     font-size: 1.8rem;
     font-weight: 500;
