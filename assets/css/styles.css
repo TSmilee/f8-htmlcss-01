@@ -108,7 +108,7 @@ a {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.5;
     letter-spacing: 0.018rem;
 }
 
@@ -116,7 +116,7 @@ a {
     color: #000336;
     font-size: 6.4rem;
     font-weight: 700;
-    line-height: 7.6rem;
+    line-height: 1.19;
     margin-top: 8px;
 }
 
@@ -124,7 +124,7 @@ a {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 3.2rem;
+    line-height: 1.78;
     margin-top: 30px;
 }
 
@@ -154,7 +154,7 @@ a {
     color: #7d8589;
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 1.25;
 }
 
 .clients .row-desc {
@@ -180,7 +180,7 @@ a {
     text-align: center;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1;
 }
 
 .guides .sub-title::before {
@@ -204,7 +204,7 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.88;
 }
 
 .list-guide {
@@ -223,7 +223,7 @@ a {
     color: #3b3c45;
     font-size: 2rem;
     font-weight: 500;
-    line-height: 2.2rem;
+    line-height: 1.1;
 }
 
 .guide-item .link {
@@ -259,7 +259,7 @@ a {
     color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1;
 }
 
 .featured .row {
@@ -272,7 +272,7 @@ a {
     color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.88;
 }
 
 .featured .link {
@@ -323,7 +323,7 @@ a {
     color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.5;
     word-break: break-all;
 }
 
@@ -398,7 +398,7 @@ a {
     color: #a7a7a7;
     font-size: 1.2rem;
     font-weight: 400;
-    line-height: 1.8rem; /* 150% */
+    line-height: 1.5;
 }
 
 .stats-trend .separate {
@@ -420,14 +420,12 @@ a {
 
 .stats .avatar {
     background: var(--bg-color, #fff);
-    color: #fff;
-    font-family: "Circular Std";
-    font-size: 0.7261rem;
     font-weight: 450;
-    letter-spacing: -0.0145rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 0.7rem;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
     width: 16px;
     height: 16px;
     margin-left: -3px;
@@ -458,7 +456,7 @@ a {
     color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 4.5rem;
+    line-height: 1.29;
 }
 
 .stats .sub-title::before {
@@ -479,7 +477,7 @@ a {
     color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem; /* 187.5% */
+    line-height: 1.88;
 }
 
 .stats .row-qty {
@@ -595,7 +593,7 @@ a {
 }
 
 .footer .desc {
-    line-height: 2.8rem;
+    line-height: 1.75;
     white-space: wrap;
 }
 
